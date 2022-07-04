@@ -1,0 +1,13 @@
+{
+	"slug" : "linear-regression-project-tutorial",
+	"title" : "Linear Regression Project Tutorial",
+	"preview": "https://github.com/4GeeksAcademy/linear-regression-project-tutorial/blob/main/assets/preview.png?raw=true",
+	"solution": "https://github.com/4GeeksAcademy/linear-regression-project-tutorial/blob/main/solution_guide.ipynb",
+	"status": "published",
+	"translations": ["us"],
+	"technologies": ["data-science", "machine-learning"],
+	"difficulty": "beginner",
+	"syntax": "python",
+	"duration" : 2,
+	"description" : "How much will your insurance cost based on a set of variables? Use this small dataset to model the relationship between several explanatory variables and a numerical target using a linear regression algorithm."
+}
