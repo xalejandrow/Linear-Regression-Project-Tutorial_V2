@@ -39,8 +39,7 @@ for i in num_2:
     df_train = df_train.drop([f"{i}"], axis=1)
 #Model3
 def PolynomialRegression(degree=2, **kwargs):
-    return make_pipeline(PolynomialFeatures(degree),
-                         LinearRegression(**kwargs))
+    return make_pipeline(PolynomialFeatures(degree),LinearRegression(**kwargs))
 param_grid = {'polynomialfeatures__degree': np.arange(4), # polynomial (0,1,2,3)
               'linearregression__fit_intercept': [True, False], # with and without intercept
               'linearregression__normalize': [True, False]} # normalize and not normalize

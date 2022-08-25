@@ -16,3 +16,4 @@ sympy>=1.10.1
 sklearn
 seaborn
 plotly
+statsmodels
